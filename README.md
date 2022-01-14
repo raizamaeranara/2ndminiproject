@@ -30,13 +30,12 @@ ________________________________________________________________________________
 
       o	Combine the files to a data frame in the form of subjects, labels, the rest of the data.
 
-  •	Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
+  •	Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
+            Uses descriptive activity names to name the activities in the data set.
 
       o	Read the features from features.txt and filter it to only leave features that are either means ("mean()") or standard deviations ("std()"). 
 
       o	A new data frame is then created that includes subjects, labels, and the described features.
-
-  •	Step 3: Uses descriptive activity names to name the activities in the data set.
 
       o	Read the activity labels from activity_labels.txt and replace the numbers with the text.
 
